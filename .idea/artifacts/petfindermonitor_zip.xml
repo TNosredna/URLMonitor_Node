@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="petfindermonitor.zip">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="root">
+      <element id="archive" name="petfindermonitor.zip">
+        <element id="file-copy" path="$PROJECT_DIR$/monitor.json" />
+        <element id="file-copy" path="$PROJECT_DIR$/package.json" />
+        <element id="directory" name="bin">
+          <element id="dir-copy" path="$PROJECT_DIR$/bin" />
+        </element>
+        <element id="directory" name="data">
+          <element id="dir-copy" path="$PROJECT_DIR$/data" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/start.cmd" />
+        <element id="file-copy" path="$PROJECT_DIR$/phantomjs.exe" />
+        <element id="file-copy" path="$PROJECT_DIR$/start.sh" />
+      </element>
+    </root>
+  </artifact>
+</component>

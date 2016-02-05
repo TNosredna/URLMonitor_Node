@@ -1,0 +1,34 @@
+{
+    "pollingInterval": 600000,
+    "logging": {
+        "level": "info" ,
+        "filename": "monitor.log",
+        "console_out": true
+    },
+    "mail": {
+        "username": "tnosredna@gmail.com",
+        "password": "",
+        "recipients": "tnosredna@gmail.com",
+        "from": "PetFinder <tnosredna@gmail.com>",
+        "subject": { "text": "Petfinder: New Pet Found (%s)", "attribute": "name" }
+    },
+    "petfinder": {
+        "selector": {
+            "hits": "#search-results > tr > td.adoptable-pet > div.pet-name-container > h2 > a",
+            "images": "#js-petDetail-slider > div.rsThumbs > div.rsThumbsContainer > div.rsNavItem > img",
+            "name": "#js-petDetail-headerContainer > h1",
+            "summary": "#js-petDetail-headerContainer > p.breed",
+            "contact_name": "#js-petDetail-headerContainer > p.location > a",
+            "contact_phone": "",
+            "contact_text": "",
+            "contact_url": "",
+            "contact_city": "#js-petDetail-headerContainer > p.location > span:nth-of-type(1)",
+            "contact_state": "#js-petDetail-headerContainer > p.location > span:nth-of-type(2)",
+            "about": "#js-petDetail-aboutContainer > section.pet-profile-container > div",
+            "details": "#js-petDetail-aboutContainer > aside#features-wrapper > div"
+        },
+        "url": {
+            "mainPage": "https://www.petfinder.com/pet-search?location=84045&animal=dog&breed=Havanese&age=baby&age=young&gender=female&filtersUpdated=false&distance=500"
+        }
+    }
+}

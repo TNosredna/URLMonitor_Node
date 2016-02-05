@@ -1,0 +1,20 @@
+{
+  "name": "URLMonitor_Node”,
+  "version": “0.0.2”,
+  "main": "bin/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "fs": "0.0.2",
+    "jquery-deferred": "^0.3.0",
+    "locallydb": "0.0.9",
+    "nodemailer": "^1.11.0",
+    "phantom": "^0.8.4",
+    "winston": "^2.1.1",
+    "xmlbuilder": "^4.2.0"
+  }
+}
