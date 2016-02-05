@@ -6,10 +6,10 @@
         "console_out": true
     },
     "mail": {
-        "username": "tnosredna@gmail.com",
+        "username": "ooga@gmail.com",
         "password": "",
-        "recipients": "tnosredna@gmail.com",
-        "from": "PetFinder <tnosredna@gmail.com>",
+        "recipients": "ooga@gmail.com",
+        "from": "PetFinder <ooga@gmail.com>",
         "subject": { "text": "Petfinder: New Pet Found (%s)", "attribute": "name" }
     },
     "petfinder": {
