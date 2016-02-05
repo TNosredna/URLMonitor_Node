@@ -1,6 +1,6 @@
 {
-  "name": "URLMonitor_Node”,
-  "version": “0.0.2”,
+  "name": "URLMonitor_Node",
+  "version": "0.0.2",
   "main": "bin/server.js",
   "private": true,
   "scripts": {
